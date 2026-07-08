@@ -1,71 +1,177 @@
 # Qurban Management System
 
-## Overview
-The Qurban Management System is a comprehensive web-based application designed to streamline and manage the entire workflow of the Qurban process. From registration to distribution, this application provides an intuitive dashboard for administrators and stakeholders to track progress, manage logistics, and ensure transparency.
+> A modern web-based platform designed to simplify and digitize the entire Qurban management process, from participant registration to meat distribution.
 
-## Key Features
-- **Dashboard & Analytics:** Visual representations of Qurban data, including livestock statistics, participant demographics, and financial summaries using Recharts.
-- **Smart QR Code Integration:** Built-in QR code generation and scanning (via html5-qrcode) to track livestock, distribution vouchers, and participant registration seamlessly.
-- **Automated Document Generation:** Generate downloadable PDF certificates and receipts dynamically using jsPDF and html2canvas.
-- **AI-Powered Insights:** Integrated with Google Gemini AI to assist with predictive analytics, data summarization, and automated reporting.
-- **Fluid UI/UX:** Smooth animations and transitions powered by Framer Motion, with responsive styling through Tailwind CSS.
+The Qurban Management System is a web application that helps Qurban committees manage participants, beneficiaries, livestock, and distribution activities through a centralized dashboard. The platform streamlines administrative workflows by integrating QR Code validation, WhatsApp notifications, AI-assisted features, and automated document generation into a single system.
 
-## Technology Stack
-- **Frontend Framework:** React 19 + Vite
-- **Styling:** Tailwind CSS v4
-- **Backend Service:** Express + Node.js (via tsx)
-- **AI Integration:** Google GenAI SDK
-- **Icons & UI:** Lucide React
+Developed as an academic project, this application focuses on improving efficiency, reducing manual administrative work, and providing a more organized and transparent Qurban management process.
 
-## Prerequisites
-Ensure you have the following installed on your local environment:
-- Node.js (v18.x or newer recommended)
-- npm package manager
+---
 
-## Installation & Setup
+## Features
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+### Dashboard & Management
+
+* Administrative dashboard
+* Participant management
+* Beneficiary management
+* Livestock management
+* Distribution management
+* Real-time statistics and analytics
+
+### QR Code System
+
+* Automatic QR Code generation
+* QR Code scanning and validation
+* Digital voucher verification
+* Distribution tracking
+
+### Communication & Automation
+
+* WhatsApp notification integration using Fonte
+* Automated participant updates
+* Distribution status notifications
+* Streamlined administrative workflow
+
+### AI-Assisted Features
+
+* AI-assisted administrative support using Google AI Studio
+* Automated content generation for administrative tasks
+* Faster information processing for committee members
+
+### Reporting
+
+* PDF receipt generation
+* Digital certificates
+* Printable reports
+* Dashboard analytics
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React 19
+* Vite
+* Tailwind CSS
+* Framer Motion
+
+### Backend
+
+* Node.js
+* Express
+
+### Services
+
+* Google AI Studio
+* WhatsApp Gateway (Fonte)
+
+### Libraries
+
+* Recharts
+* html5-qrcode
+* jsPDF
+* html2canvas
+* Lucide React
+
+---
+
+## System Architecture
+
+```text
+Participants & Beneficiaries
+             │
+             ▼
+     Qurban Management System
+             │
+ ┌───────────┼──────────────┬──────────────┐
+ │           │              │              │
+ ▼           ▼              ▼              ▼
+QR Code   Google AI     PDF Generator   WhatsApp
+Validation   Studio                         Gateway
+ │                                           │
+ └─────────────────── Dashboard ─────────────┘
 ```
 
-2. Install dependencies
+---
+
+## My Responsibilities
+
+This project was developed independently, covering both interface design and application implementation.
+
+My responsibilities included:
+
+* Designing and developing the complete user interface.
+* Building the administrative dashboard.
+* Developing participant, beneficiary, livestock, and distribution management features.
+* Implementing QR Code generation and scanning for digital validation.
+* Integrating Google AI Studio to support AI-assisted administrative features.
+* Integrating WhatsApp Gateway (Fonte) for automated notifications.
+* Developing dashboard analytics and reporting features.
+* Implementing PDF generation for receipts and certificates.
+* Connecting frontend components with backend services.
+* Testing and refining application workflows to improve usability and reliability.
+
+---
+
+## Challenges
+
+One of the biggest challenges during development was integrating multiple external services into a unified workflow.
+
+The application combines Google AI Studio, WhatsApp Gateway, QR Code validation, and PDF generation while ensuring that each feature works seamlessly together. Designing an intuitive workflow for committee members without increasing operational complexity was another important consideration throughout the project.
+
+Developing this system provided valuable experience in integrating third-party services, building administrative dashboards, and designing digital solutions for real-world operational processes.
+
+---
+
+## Running the Project
+
+### Prerequisites
+
+* Node.js 18 or later
+* npm
+
+### Setup
+
+Install project dependencies.
+
 ```bash
 npm install
 ```
 
-3. Environment Configuration
-Copy the example environment file and update it with your credentials:
+Configure the required environment variables.
+
 ```bash
 cp .env.example .env
 ```
-Ensure you provide a valid `GEMINI_API_KEY` in your `.env` file for the AI features to function properly.
 
-4. Start the Development Server
+Update the environment file with your project credentials, including the required API keys.
+
+Start the development server.
+
 ```bash
 npm run dev
 ```
-This will start the development environment.
 
-## Production Build
+---
 
-To build the application for production deployment, run:
-```bash
-npm run build
-```
-This command compiles the React frontend and bundles the Express backend server into the `dist` directory. You can test the production build locally by running:
-```bash
-npm start
-```
+## Future Improvements
 
-## Contributing
-Contributions to improve the Qurban Management System are highly encouraged. Please follow standard pull request workflows:
-1. Fork the project.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a Pull Request.
+Potential future enhancements include:
 
-## License
-This project is licensed under the MIT License.
+* Payment gateway integration.
+* Multi-role user management.
+* Real-time inventory tracking.
+* Mobile application support.
+* Advanced reporting and analytics.
+* Exportable financial reports.
+* Email notification support.
+
+---
+
+## Project Status
+
+Academic Project
+
+Developed as a full-stack web application to modernize Qurban administration by integrating digital workflows, automation, and third-party services into a single management platform.
