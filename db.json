@@ -1,0 +1,1292 @@
+{
+  "settings": {
+    "masjid_name": "Masjid Al-Barkah Manggarai",
+    "is_dark_mode": false,
+    "tahun_qurban": "1447 H / 2026 M",
+    "harga_patungan_sapi": 3500000,
+    "address": "Jl. Lapangan Roos No. 23, Tebet, Jakarta Selatan",
+    "logo_url": "",
+    "whatsapp_api_active": true
+  },
+  "users": [
+    {
+      "id": "usr-01",
+      "email": "panitia1@qurban.id",
+      "name": "Ustadz Ahmad Fauzi",
+      "role": "Ketua Panitia",
+      "access": "keteu"
+    },
+    {
+      "id": "usr-02",
+      "email": "panitia2@qurban.id",
+      "name": "Bambang Triyono",
+      "role": "Panitia",
+      "access": "staff"
+    },
+    {
+      "id": "usr-03",
+      "email": "panitia3@qurban.id",
+      "name": "Staff Panitia Qurban",
+      "role": "Panitia",
+      "access": "staff"
+    },
+    {
+      "id": "usr-04",
+      "email": "panitia4@qurban.id",
+      "name": "Rian Hidayat",
+      "role": "Panitia",
+      "access": "staff"
+    },
+    {
+      "id": "usr-05",
+      "email": "panitia5@qurban.id",
+      "name": "Joko Susilo",
+      "role": "Panitia",
+      "access": "staff"
+    },
+    {
+      "id": "usr-06",
+      "email": "panitia6@qurban.id",
+      "name": "Budi Santoso",
+      "role": "Panitia",
+      "access": "staff"
+    },
+    {
+      "id": "usr-07",
+      "email": "mudhohi@qurban.id",
+      "name": "Pak H. Budi Santoso",
+      "role": "Mudhohi",
+      "access": "read-only"
+    }
+  ],
+  "panitia": [
+    {
+      "id": "pan-01",
+      "name": "Ustadz Ahmad Fauzi",
+      "jabatan": "Ketua Panitia",
+      "phone": "081234567801",
+      "absensi": {
+        "total_hadir": 12,
+        "status_hari_ini": "Hadir"
+      }
+    },
+    {
+      "id": "pan-02",
+      "name": "Bambang Triyono",
+      "jabatan": "Sekretaris",
+      "phone": "081234567802",
+      "absensi": {
+        "total_hadir": 11,
+        "status_hari_ini": "Hadir"
+      }
+    },
+    {
+      "id": "pan-03",
+      "name": "Staff Panitia Qurban",
+      "jabatan": "Bendahara & Keuangan",
+      "phone": "081234567803",
+      "absensi": {
+        "total_hadir": 12,
+        "status_hari_ini": "Hadir"
+      }
+    },
+    {
+      "id": "pan-04",
+      "name": "Rian Hidayat",
+      "jabatan": "Divisi Perlengkapan & Logistik",
+      "phone": "081234567804",
+      "absensi": {
+        "total_hadir": 9,
+        "status_hari_ini": "Hadir"
+      }
+    },
+    {
+      "id": "pan-05",
+      "name": "Joko Susilo",
+      "jabatan": "Divisi Jagal & Distribusi",
+      "phone": "081234567805",
+      "absensi": {
+        "total_hadir": 10,
+        "status_hari_ini": "Izin"
+      }
+    },
+    {
+      "id": "pan-06",
+      "name": "Budi Santoso",
+      "jabatan": "Divisi Keamanan",
+      "phone": "081234567806",
+      "absensi": {
+        "total_hadir": 8,
+        "status_hari_ini": "Hadir"
+      }
+    }
+  ],
+  "mudhohi": [
+    {
+      "id": "mdh-4776",
+      "name": "Adi",
+      "phone": "081261383088",
+      "email": "adi@gmail.com",
+      "type_hewan": "Sapi (Mandiri)",
+      "detail_qurban": "Sapi Jawa Putih (PO) (Sapi Mandiri)",
+      "nominal_patungan": 24500000,
+      "total_pembayaran": 24500000,
+      "payment_status": "Lunas",
+      "approved": true,
+      "image_url": "",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "mdh-3043",
+      "name": "Adel",
+      "phone": "6288905604619",
+      "email": "adel@gmail.com",
+      "type_hewan": "Sapi (Mandiri)",
+      "detail_qurban": "Sapi Jawa Putih (PO) (Sapi Mandiri)",
+      "nominal_patungan": 24500000,
+      "total_pembayaran": 24500000,
+      "payment_status": "Lunas",
+      "approved": true,
+      "image_url": "",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "mdh-6887",
+      "name": "Nayya",
+      "phone": "6281261383088",
+      "email": "nayya@gmail.com",
+      "type_hewan": "Kambing",
+      "detail_qurban": "Kambing Jawa (Kacang) Standard (Kambing)",
+      "nominal_patungan": 3200000,
+      "total_pembayaran": 3200000,
+      "payment_status": "Lunas",
+      "approved": true,
+      "image_url": "",
+      "date": "2026-05-26"
+    },
+    {
+      "id": "mdh-7710",
+      "name": "Risha ",
+      "phone": "088905604619",
+      "email": "risha@gmail.com",
+      "type_hewan": "Kambing",
+      "detail_qurban": "Kambing Jawa (Kacang) Standard (Kambing)",
+      "nominal_patungan": 1000000,
+      "total_pembayaran": 1000000,
+      "payment_status": "Lunas",
+      "approved": true,
+      "image_url": "",
+      "date": "2026-05-26"
+    }
+  ],
+  "hewan_qurban": [
+    {
+      "id": "hwn-3341",
+      "type": "Kambing",
+      "code": "KAMB-01",
+      "weight": 42,
+      "price": 1000000,
+      "status": "Disembelih",
+      "group_id": "kel-none",
+      "assignees": [
+        "mdh-7710"
+      ],
+      "breed": "Kambing Jawa (Kacang) Standard",
+      "description": "Kambing lokal berotot kencang. Bulu mulus berkilat, lincah aktif, asupan hijau segar terkontrol, gigi taring sudah ganti (kupak), sah mutlak secara syari'at."
+    },
+    {
+      "id": "hwn-1514",
+      "type": "Kambing",
+      "code": "KAMB-02",
+      "weight": 42,
+      "price": 3200000,
+      "status": "Disembelih",
+      "group_id": "kel-none",
+      "assignees": [
+        "mdh-6887"
+      ],
+      "breed": "Kambing Jawa (Kacang) Standard",
+      "description": "Kambing lokal berotot kencang. Bulu mulus berkilat, lincah aktif, asupan hijau segar terkontrol, gigi taring sudah ganti (kupak), sah mutlak secara syari'at."
+    },
+    {
+      "id": "hwn-7047",
+      "type": "Sapi",
+      "code": "SAPI-01",
+      "weight": 450,
+      "price": 24500000,
+      "status": "Menunggu",
+      "group_id": "kel-none",
+      "assignees": [
+        "mdh-3043"
+      ],
+      "breed": "Sapi Jawa Putih (PO)",
+      "description": "Sapi Peranakan Ongole (PO) putih bersih berukuran besar. Berbahu tinggi kuat, tegap berpunuk, daging melimpah, diniatkan atas nama keluarga (7 jiwa)."
+    },
+    {
+      "id": "hwn-2027",
+      "type": "Sapi",
+      "code": "SAPI-02",
+      "weight": 450,
+      "price": 24500000,
+      "status": "Menunggu",
+      "group_id": "kel-none",
+      "assignees": [
+        "mdh-4776"
+      ],
+      "breed": "Sapi Jawa Putih (PO)",
+      "description": "Sapi Peranakan Ongole (PO) putih bersih berukuran besar. Berbahu tinggi kuat, tegap berpunuk, daging melimpah, diniatkan atas nama keluarga (7 jiwa)."
+    }
+  ],
+  "kelompok_qurban": [
+    {
+      "id": "kel-01",
+      "name": "Kelompok A (Baitullah)",
+      "type": "Sapi",
+      "max_murtad": 7,
+      "members_count": 0,
+      "max_quota": 7,
+      "list_members": []
+    },
+    {
+      "id": "kel-02",
+      "name": "Kelompok B (Madinah)",
+      "type": "Sapi",
+      "max_murtad": 7,
+      "members_count": 0,
+      "max_quota": 7,
+      "list_members": []
+    }
+  ],
+  "mustahiq": [
+    {
+      "id": "mst-3240",
+      "name": "Toro",
+      "category": "Musafir",
+      "address": "Sumatera Barat",
+      "phone": "081261383088",
+      "session_id": "ses-03",
+      "claim_status": "Belum Diklaim",
+      "code": "KP-02",
+      "qr_code_url": "",
+      "claim_date": null
+    },
+    {
+      "id": "mst-6365",
+      "name": "Budi",
+      "category": "Kerabat / Tetangga",
+      "address": "Jl. Jonggol Dayeuh",
+      "phone": "088905604619",
+      "session_id": "ses-03",
+      "claim_status": "Sudah Diklaim",
+      "code": "KP-01",
+      "qr_code_url": "",
+      "claim_date": "2026-05-26T18:40:23.446Z"
+    }
+  ],
+  "sesi_distribusi": [
+    {
+      "id": "ses-01",
+      "name": "Sesi Pagi (08:00 - 10:00)",
+      "max_quota": 150,
+      "current_claims": 83
+    },
+    {
+      "id": "ses-02",
+      "name": "Sesi Siang (10:30 - 12:30)",
+      "max_quota": 200,
+      "current_claims": 41
+    },
+    {
+      "id": "ses-03",
+      "name": "Sesi Sore (13:30 - 15:30)",
+      "max_quota": 100,
+      "current_claims": 1
+    }
+  ],
+  "pembayaran": [
+    {
+      "id": "pby-01",
+      "mudhohi_id": "mdh-01",
+      "amount": 3500000,
+      "date": "2026-05-10T09:15:00Z",
+      "status": "Terverifikasi",
+      "method": "Transfer Bank BCA",
+      "desc": "Sapi Patungan Budi Santoso"
+    },
+    {
+      "id": "pby-02",
+      "mudhohi_id": "mdh-02",
+      "amount": 3500000,
+      "date": "2026-05-11T13:40:00Z",
+      "status": "Terverifikasi",
+      "method": "Transfer Bank Mandiri",
+      "desc": "Sapi Patungan Ratna Sari"
+    },
+    {
+      "id": "pby-03",
+      "mudhohi_id": "mdh-05",
+      "amount": 1000000,
+      "date": "2026-05-15T11:20:00Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "DP Patungan Ridwan Kamil"
+    },
+    {
+      "id": "pby-04",
+      "mudhohi_id": "mdh-08",
+      "amount": 45000000,
+      "date": "2026-05-20T10:00:00Z",
+      "status": "Terverifikasi",
+      "method": "Transfer Bank BNI",
+      "desc": "Sapi Mandiri Prabowo"
+    },
+    {
+      "id": "pby-3980",
+      "mudhohi_id": "mdh-5788",
+      "amount": 24500000,
+      "date": "2026-05-26T14:39:35.952Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban nayya"
+    },
+    {
+      "id": "pby-5549",
+      "mudhohi_id": "mdh-2364",
+      "amount": 3500000,
+      "date": "2026-05-26T14:41:28.298Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban nayya"
+    },
+    {
+      "id": "pby-7802",
+      "mudhohi_id": "mdh-7017",
+      "amount": 24500000,
+      "date": "2026-05-26T14:51:01.831Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban yafiq"
+    },
+    {
+      "id": "pby-1559",
+      "mudhohi_id": "mdh-3611",
+      "amount": 3200000,
+      "date": "2026-05-26T14:51:48.781Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban ridho"
+    },
+    {
+      "id": "pby-1533",
+      "mudhohi_id": "mdh-7710",
+      "amount": 1000000,
+      "date": "2026-05-26T18:32:02.763Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban Risha "
+    },
+    {
+      "id": "pby-6571",
+      "mudhohi_id": "mdh-6887",
+      "amount": 3200000,
+      "date": "2026-05-26T18:33:36.585Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban Nayya"
+    },
+    {
+      "id": "pby-9467",
+      "mudhohi_id": "mdh-3043",
+      "amount": 24500000,
+      "date": "2026-05-26T18:53:05.004Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban Adel"
+    },
+    {
+      "id": "pby-1965",
+      "mudhohi_id": "mdh-4776",
+      "amount": 24500000,
+      "date": "2026-05-26T19:06:35.459Z",
+      "status": "Terverifikasi",
+      "method": "Cash via Bendahara",
+      "desc": "Pembayaran Qurban Adi"
+    }
+  ],
+  "laporan_keuangan": [
+    {
+      "id": "keu-01",
+      "type": "Pemasukan",
+      "category": "Sapi Patungan",
+      "desc": "Penerimaan Mudhohi Budi Santoso",
+      "amount": 3500000,
+      "date": "2026-05-10"
+    },
+    {
+      "id": "keu-02",
+      "type": "Pemasukan",
+      "category": "Sapi Patungan",
+      "desc": "Penerimaan Mudhohi Ratna Sari",
+      "amount": 3500000,
+      "date": "2026-05-11"
+    },
+    {
+      "id": "keu-03",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Penerimaan Mudhohi Dr. Irfan Hakim",
+      "amount": 3200000,
+      "date": "2026-05-12"
+    },
+    {
+      "id": "keu-04",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Penerimaan Mudhohi Ibu Megawati",
+      "amount": 3800000,
+      "date": "2026-05-14"
+    },
+    {
+      "id": "keu-05",
+      "type": "Pemasukan",
+      "category": "Sapi Patungan",
+      "desc": "Penerimaan DP Ridwan Kamil",
+      "amount": 1000000,
+      "date": "2026-05-15"
+    },
+    {
+      "id": "keu-06",
+      "type": "Pemasukan",
+      "category": "Sapi Patungan",
+      "desc": "Penerimaan Mudhohi Anies Baswedan",
+      "amount": 3500000,
+      "date": "2026-05-16"
+    },
+    {
+      "id": "keu-07",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Penerimaan Mudhohi Ibu Khofifah",
+      "amount": 2500000,
+      "date": "2026-05-18"
+    },
+    {
+      "id": "keu-08",
+      "type": "Pemasukan",
+      "category": "Sapi Mandiri",
+      "desc": "Penerimaan Sapi Mandiri Prabowo Subianto",
+      "amount": 45000000,
+      "date": "2026-05-20"
+    },
+    {
+      "id": "keu-09",
+      "type": "Pengeluaran",
+      "category": "Pembelian Hewan",
+      "desc": "Pembelian Sapi Limosin SP-01 (Lunas)",
+      "amount": 23500000,
+      "date": "2026-05-12"
+    },
+    {
+      "id": "keu-10",
+      "type": "Pengeluaran",
+      "category": "Operasional",
+      "desc": "Buku Pembelian Tali, Terpal, & Bambu",
+      "amount": 1200000,
+      "date": "2026-05-14"
+    },
+    {
+      "id": "keu-11",
+      "type": "Pengeluaran",
+      "category": "Operasional",
+      "desc": "Buku Konsumsi & Snack Panitia Rapat",
+      "amount": 850000,
+      "date": "2026-05-16"
+    },
+    {
+      "id": "keu-12",
+      "type": "Pengeluaran",
+      "category": "Pembelian Hewan",
+      "desc": "Pembelian Kambing KB-01 & KB-02",
+      "amount": 5500000,
+      "date": "2026-05-18"
+    },
+    {
+      "id": "keu-9754",
+      "type": "Pemasukan",
+      "category": "Sapi (Mandiri)",
+      "desc": "Funder Mudhohi nayya (Sapi (Mandiri))",
+      "amount": 24500000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-9875",
+      "type": "Pemasukan",
+      "category": "Sapi (Patungan)",
+      "desc": "Funder Mudhohi nayya (Sapi (Patungan))",
+      "amount": 3500000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-4422",
+      "type": "Pemasukan",
+      "category": "Sapi (Mandiri)",
+      "desc": "Funder Mudhohi yafiq (Sapi (Mandiri))",
+      "amount": 24500000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-2577",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Funder Mudhohi ridho (Kambing)",
+      "amount": 3200000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-8487",
+      "type": "Pengeluaran",
+      "category": "Pembelian Hewan",
+      "desc": "Pembelian fisik Sapi SAPI-05",
+      "amount": 24500000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-6001",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Funder Mudhohi Risha  (Kambing)",
+      "amount": 1000000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-7437",
+      "type": "Pemasukan",
+      "category": "Kambing",
+      "desc": "Funder Mudhohi Nayya (Kambing)",
+      "amount": 3200000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-5529",
+      "type": "Pemasukan",
+      "category": "Sapi (Mandiri)",
+      "desc": "Funder Mudhohi Adel (Sapi (Mandiri))",
+      "amount": 24500000,
+      "date": "2026-05-26"
+    },
+    {
+      "id": "keu-7439",
+      "type": "Pemasukan",
+      "category": "Sapi (Mandiri)",
+      "desc": "Funder Mudhohi Adi (Sapi (Mandiri))",
+      "amount": 24500000,
+      "date": "2026-05-26"
+    }
+  ],
+  "notifikasi": [
+    {
+      "id": "ntf-9127",
+      "mdn_id": "mst-3240",
+      "phone": "081261383088",
+      "message": "Yth. Ibu/Bapak *Toro*, pendaftaran sebagai Penerima Qurban (Mustahiq) berhasil.\n\n🎫 *DETAIL KUPON DIGITAL QURBAN*\n• Kategori: Musafir\n• Nomor Kupon: *KP-02*\n• Sesi Pengambilan: *Sesi Sore (13:30 - 15:30)*\n\nSilakan buka tautan di bawah ini untuk melihat Kupon Digital & QR Code resmi Anda. Anda tidak perlu mencetak fisik kupon ini, cukup tunjukkan halaman ini ke panitia di lokasi saat pembagian daging untuk di-scan:\n🔗 *LINK KUPON QR:* http://localhost:3000/print-coupon/KP-02\n\n*(PENTING: Jangan memberikan link ini kepada orang lain untuk mencegah kupon Anda disalahgunakan atau diclaim ganda).*\n\nTerima kasih.\n- Panitia Qurban Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158536789",
+      "timestamp": "2026-05-26T19:14:09.962Z"
+    },
+    {
+      "id": "ntf-7685",
+      "mdn_id": "mdh-6887",
+      "phone": "6281261383088",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-02) berstatus: *DISEMBELIH*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158536771",
+      "timestamp": "2026-05-26T19:13:10.966Z"
+    },
+    {
+      "id": "ntf-4838",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *DISEMBELIH*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158536762",
+      "timestamp": "2026-05-26T19:12:43.073Z"
+    },
+    {
+      "id": "ntf-3798",
+      "mdn_id": "manual",
+      "phone": "6281261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T19:12:12.968Z"
+    },
+    {
+      "id": "ntf-5143",
+      "mdn_id": "manual",
+      "phone": "6288905604619",
+      "message": "Alhamdulillah Bapak/Ibu Adel, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T19:11:53.257Z"
+    },
+    {
+      "id": "ntf-9627",
+      "mdn_id": "manual",
+      "phone": "6288905604619",
+      "message": "Alhamdulillah Bapak/Ibu Adel, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T19:09:55.595Z"
+    },
+    {
+      "id": "ntf-1584",
+      "mdn_id": "manual",
+      "phone": "6288905604619",
+      "message": "Alhamdulillah Bapak/Ibu Adel, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T19:07:05.857Z"
+    },
+    {
+      "id": "ntf-8820",
+      "mdn_id": "manual",
+      "phone": "081261383088",
+      "message": "Alhamdulillah Bapak/Ibu Adi, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T19:06:56.228Z"
+    },
+    {
+      "id": "ntf-5624",
+      "mdn_id": "mdh-4776",
+      "phone": "081261383088",
+      "message": "Yth. Adi, pendaftaran qurban (Sapi (Mandiri)) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T19:06:35.460Z"
+    },
+    {
+      "id": "ntf-6948",
+      "mdn_id": "manual",
+      "phone": "6281261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:54:07.320Z"
+    },
+    {
+      "id": "ntf-9558",
+      "mdn_id": "manual",
+      "phone": "6288905604619",
+      "message": "Alhamdulillah Bapak/Ibu Adel, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:53:59.327Z"
+    },
+    {
+      "id": "ntf-8340",
+      "mdn_id": "manual",
+      "phone": "088905604619",
+      "message": "Alhamdulillah Bapak/Ibu Risha , qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:53:28.455Z"
+    },
+    {
+      "id": "ntf-4461",
+      "mdn_id": "mdh-3043",
+      "phone": "6288905604619",
+      "message": "Yth. Adel, pendaftaran qurban (Sapi (Mandiri)) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:53:05.005Z"
+    },
+    {
+      "id": "ntf-5312",
+      "mdn_id": "manual",
+      "phone": "6281261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:51:50.571Z"
+    },
+    {
+      "id": "ntf-6285",
+      "mdn_id": "mst-6365",
+      "phone": "088905604619",
+      "message": "Yth. Ibu/Bapak *Budi*, pendaftaran sebagai Penerima Qurban (Mustahiq) berhasil.\n\n🎫 *DETAIL KUPON DIGITAL QURBAN*\n• Kategori: Kerabat / Tetangga\n• Nomor Kupon: *KP-01*\n• Sesi Pengambilan: *Sesi Sore (13:30 - 15:30)*\n\nSilakan buka tautan di bawah ini untuk melihat Kupon Digital & QR Code resmi Anda. Anda tidak perlu mencetak fisik kupon ini, cukup tunjukkan halaman ini ke panitia di lokasi saat pembagian daging untuk di-scan:\n🔗 *LINK KUPON QR:* http://localhost:3000/print-coupon/KP-01\n\n*(PENTING: Jangan memberikan link ini kepada orang lain untuk mencegah kupon Anda disalahgunakan atau diclaim ganda).*\n\nTerima kasih.\n- Panitia Qurban Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:38:53.991Z"
+    },
+    {
+      "id": "ntf-4781",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:37:43.610Z"
+    },
+    {
+      "id": "ntf-2345",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *SELESAI*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:37:38.736Z"
+    },
+    {
+      "id": "ntf-4483",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *DIBAGIKAN*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:37:34.617Z"
+    },
+    {
+      "id": "ntf-4045",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *DIKULITI*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:37:18.057Z"
+    },
+    {
+      "id": "ntf-2595",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Alhamdulillah, hewan qurban Anda (KAMB-01) berstatus: *DISEMBELIH*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:37:09.740Z"
+    },
+    {
+      "id": "ntf-6103",
+      "mdn_id": "manual",
+      "phone": "088905604619",
+      "message": "Alhamdulillah Bapak/Ibu Risha , qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:35:48.694Z"
+    },
+    {
+      "id": "ntf-5707",
+      "mdn_id": "manual",
+      "phone": "081261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:35:38.163Z"
+    },
+    {
+      "id": "ntf-6508",
+      "mdn_id": "manual",
+      "phone": "081261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:34:19.199Z"
+    },
+    {
+      "id": "ntf-3170",
+      "mdn_id": "manual",
+      "phone": "081261383088",
+      "message": "Alhamdulillah Bapak/Ibu Nayya, qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:34:01.570Z"
+    },
+    {
+      "id": "ntf-7442",
+      "mdn_id": "manual",
+      "phone": "088905604619",
+      "message": "Alhamdulillah Bapak/Ibu Risha , qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:33:50.594Z"
+    },
+    {
+      "id": "ntf-1380",
+      "mdn_id": "mdh-6887",
+      "phone": "081261383088",
+      "message": "Yth. Nayya, pendaftaran qurban (Kambing) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:33:36.586Z"
+    },
+    {
+      "id": "ntf-9728",
+      "mdn_id": "manual",
+      "phone": "088905604619",
+      "message": "Alhamdulillah Bapak/Ibu Risha , qurban Anda berupa Sapi Patungan dinyatakan Lunas. Jazakumullah Khairan.",
+      "status": "Sent",
+      "timestamp": "2026-05-26T18:32:30.205Z"
+    },
+    {
+      "id": "ntf-6421",
+      "mdn_id": "mdh-7710",
+      "phone": "088905604619",
+      "message": "Yth. Risha , pendaftaran qurban (Kambing) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "mock",
+      "timestamp": "2026-05-26T18:32:02.765Z"
+    },
+    {
+      "id": "ntf-6998",
+      "mdn_id": "mdh-3611",
+      "phone": "081261383088",
+      "message": "Yth. ridho, pendaftaran qurban (Kambing) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158906444",
+      "timestamp": "2026-05-26T14:51:48.866Z"
+    },
+    {
+      "id": "ntf-3616",
+      "mdn_id": "mdh-7017",
+      "phone": "081261383088",
+      "message": "Yth. yafiq, pendaftaran qurban (Sapi (Mandiri)) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158906389",
+      "timestamp": "2026-05-26T14:51:01.938Z"
+    },
+    {
+      "id": "ntf-7327",
+      "mdn_id": "mdh-2364",
+      "phone": "081261383088",
+      "message": "Yth. nayya, pendaftaran qurban (Sapi (Patungan)) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905861",
+      "timestamp": "2026-05-26T14:41:28.374Z"
+    },
+    {
+      "id": "ntf-6925",
+      "mdn_id": "mdh-10",
+      "phone": "08234455122",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905826",
+      "timestamp": "2026-05-26T14:40:54.536Z"
+    },
+    {
+      "id": "ntf-5487",
+      "mdn_id": "mdh-09",
+      "phone": "08123344211",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905825",
+      "timestamp": "2026-05-26T14:40:54.507Z"
+    },
+    {
+      "id": "ntf-7010",
+      "mdn_id": "mdh-06",
+      "phone": "08119876543",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905824",
+      "timestamp": "2026-05-26T14:40:54.479Z"
+    },
+    {
+      "id": "ntf-9899",
+      "mdn_id": "mdh-05",
+      "phone": "08125555432",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905823",
+      "timestamp": "2026-05-26T14:40:54.450Z"
+    },
+    {
+      "id": "ntf-5886",
+      "mdn_id": "mdh-02",
+      "phone": "08122334455",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905821",
+      "timestamp": "2026-05-26T14:40:54.425Z"
+    },
+    {
+      "id": "ntf-9748",
+      "mdn_id": "mdh-01",
+      "phone": "08111222333",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-01) berstatus: *MENUNGGU*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905820",
+      "timestamp": "2026-05-26T14:40:54.390Z"
+    },
+    {
+      "id": "ntf-7288",
+      "mdn_id": "mdh-5788",
+      "phone": "081261383088",
+      "message": "Yth. nayya, pendaftaran qurban (Sapi (Mandiri)) Anda berhasil. Status Pembayaran: Lunas (Semoga Allah SWT menerima amal ibadah qurban Anda). - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158905735",
+      "timestamp": "2026-05-26T14:39:36.062Z"
+    },
+    {
+      "id": "ntf-6428",
+      "mdn_id": "mdh-08",
+      "phone": "08112233445",
+      "message": "Alhamdulillah, hewan qurban Anda (SAPI-03) berstatus: *DIKULITI*. Semoga berkah. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "detail": "158903061",
+      "timestamp": "2026-05-26T14:02:57.608Z"
+    },
+    {
+      "id": "ntf-01",
+      "mdn_id": "mdh-01",
+      "phone": "08111222333",
+      "message": "Yth. Budi Santoso, terima kasih pembayaran Qurban Anda Sapi Patungan sebesar Rp 3.500.000 dinyatakan LUNAS. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "timestamp": "2026-05-10T09:20:00Z"
+    },
+    {
+      "id": "ntf-02",
+      "mdn_id": "mdh-05",
+      "phone": "08125555432",
+      "message": "Yth. Ridwan Kamil, pengingat DP Qurban Anda sebesar Rp 1.000.000 telah kami terima. Harap melunasi patungan sisa Rp 2.500.000 sebelum H-3. Syukron. - Masjid Al-Barkah Manggarai",
+      "status": "Sent",
+      "timestamp": "2026-05-15T11:25:00Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act-1779822849962-597",
+      "title": "Mustahiq Baru Mendaftar",
+      "desc": "Kupons KP-02 dialokasikan untuk Toro (Musafir).",
+      "timestamp": "2026-05-26T19:14:09.962Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779822790896-490",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-02 bergeser ke fase *Disembelih*.",
+      "timestamp": "2026-05-26T19:13:10.896Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779822763001-681",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Disembelih*.",
+      "timestamp": "2026-05-26T19:12:43.001Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779822395538-357",
+      "title": "Pembayaran Qurban Masuk",
+      "desc": "Terima dana qurban jemaah Adi sebesar Rp 24.500.000.",
+      "timestamp": "2026-05-26T19:06:35.538Z",
+      "type": "payment"
+    },
+    {
+      "id": "act-1779822395460-262",
+      "title": "Pendaftaran Mudhohi Baru",
+      "desc": "Jemaah Adi (Sapi (Mandiri)) berhasil didaftarkan.",
+      "timestamp": "2026-05-26T19:06:35.460Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779821623671-461",
+      "title": "Login Terdeteksi",
+      "desc": "Panitia Staff Panitia Qurban (Panitia) masuk ke sistem.",
+      "timestamp": "2026-05-26T18:53:43.671Z",
+      "type": "system"
+    },
+    {
+      "id": "act-1779821585014-240",
+      "title": "Pembayaran Qurban Masuk",
+      "desc": "Terima dana qurban jemaah Adel sebesar Rp 24.500.000.",
+      "timestamp": "2026-05-26T18:53:05.014Z",
+      "type": "payment"
+    },
+    {
+      "id": "act-1779821585005-983",
+      "title": "Pendaftaran Mudhohi Baru",
+      "desc": "Jemaah Adel (Sapi (Mandiri)) berhasil didaftarkan.",
+      "timestamp": "2026-05-26T18:53:05.005Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779821505898-546",
+      "title": "Update Profil Mudhohi",
+      "desc": "Detail profil jemaah Nayya diperbarui oleh Panitia.",
+      "timestamp": "2026-05-26T18:51:45.898Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779821489169-793",
+      "title": "Login Terdeteksi",
+      "desc": "Panitia Bambang Triyono (Panitia) masuk ke sistem.",
+      "timestamp": "2026-05-26T18:51:29.169Z",
+      "type": "system"
+    },
+    {
+      "id": "act-1779820823446-736",
+      "title": "Penyerahan Paket Qurban",
+      "desc": "Paket daging kupon KP-01 sukses diserahkan ke Budi (Kerabat / Tetangga).",
+      "timestamp": "2026-05-26T18:40:23.446Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779820733991-798",
+      "title": "Mustahiq Baru Mendaftar",
+      "desc": "Kupons KP-01 dialokasikan untuk Budi (Kerabat / Tetangga).",
+      "timestamp": "2026-05-26T18:38:53.991Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779820663610-959",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Menunggu*.",
+      "timestamp": "2026-05-26T18:37:43.610Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779820658735-516",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Selesai*.",
+      "timestamp": "2026-05-26T18:37:38.735Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779820654617-419",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Dibagikan*.",
+      "timestamp": "2026-05-26T18:37:34.617Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779820638057-924",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Dikuliti*.",
+      "timestamp": "2026-05-26T18:37:18.057Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779820629729-508",
+      "title": "Status Hewan Diperbarui",
+      "desc": "Hewan KAMB-01 bergeser ke fase *Disembelih*.",
+      "timestamp": "2026-05-26T18:37:09.729Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779820416586-101",
+      "title": "Pembayaran Qurban Masuk",
+      "desc": "Terima dana qurban jemaah Nayya sebesar Rp 3.200.000.",
+      "timestamp": "2026-05-26T18:33:36.586Z",
+      "type": "payment"
+    },
+    {
+      "id": "act-1779820416586-651",
+      "title": "Pendaftaran Mudhohi Baru",
+      "desc": "Jemaah Nayya (Kambing) berhasil didaftarkan.",
+      "timestamp": "2026-05-26T18:33:36.586Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779820322766-420",
+      "title": "Pembayaran Qurban Masuk",
+      "desc": "Terima dana qurban jemaah Risha  sebesar Rp 1.000.000.",
+      "timestamp": "2026-05-26T18:32:02.766Z",
+      "type": "payment"
+    },
+    {
+      "id": "act-1779820322765-499",
+      "title": "Pendaftaran Mudhohi Baru",
+      "desc": "Jemaah Risha  (Kambing) berhasil didaftarkan.",
+      "timestamp": "2026-05-26T18:32:02.765Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779820133575-303",
+      "title": "Login Terdeteksi",
+      "desc": "Panitia Ustadz Ahmad Fauzi (Ketua Panitia) masuk ke sistem.",
+      "timestamp": "2026-05-26T18:28:53.575Z",
+      "type": "system"
+    },
+    {
+      "id": "act-1779819632962-454",
+      "title": "Mustahiq Dihapus",
+      "desc": "Kontrak penerimaan kupon KP-05 milik Ustadz Rustam dihapus.",
+      "timestamp": "2026-05-26T18:20:32.962Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779819626971-831",
+      "title": "Mustahiq Dihapus",
+      "desc": "Kontrak penerimaan kupon KP-04 milik Ibu Tarmini dihapus.",
+      "timestamp": "2026-05-26T18:20:26.971Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779819616735-264",
+      "title": "Mustahiq Dihapus",
+      "desc": "Kontrak penerimaan kupon KP-03 milik Pak Udin dihapus.",
+      "timestamp": "2026-05-26T18:20:16.735Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779819607630-656",
+      "title": "Mustahiq Dihapus",
+      "desc": "Kontrak penerimaan kupon KP-02 milik Pak Jajang dihapus.",
+      "timestamp": "2026-05-26T18:20:07.630Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779819601126-585",
+      "title": "Mustahiq Dihapus",
+      "desc": "Kontrak penerimaan kupon KP-01 milik Ibu Sumiati dihapus.",
+      "timestamp": "2026-05-26T18:20:01.126Z",
+      "type": "distribution"
+    },
+    {
+      "id": "act-1779819591964-938",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan SAPI-05 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:51.964Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819587508-682",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan KAMB-04 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:47.508Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819583691-596",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan SAPI-04 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:43.691Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819578161-989",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan KAMB-03 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:38.161Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819573051-933",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan KAMB-02 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:33.051Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819567874-497",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan KAMB-01 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:27.874Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819562792-942",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan SAPI-03 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:22.792Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819558579-471",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan SAPI-02 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:18.579Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819551906-159",
+      "title": "Hewan Qurban Dihapus",
+      "desc": "Hewan SAPI-01 dihapus dari daftar operasional qurban.",
+      "timestamp": "2026-05-26T18:19:11.906Z",
+      "type": "animal"
+    },
+    {
+      "id": "act-1779819540537-85",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Mahfud MD dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:19:00.537Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819535218-442",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Gibran Rakabuming dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:55.218Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819530799-264",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Pak Prabowo Subianto dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:50.799Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819525811-874",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Ibu Khofifah dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:45.811Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819515316-451",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Pak Anies Baswedan dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:35.316Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819504867-650",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Pak Ridwan Kamil dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:24.867Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819498737-223",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Ibu Megawati dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:18.737Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819493399-286",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Dr. Irfan Hakim dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:13.399Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819488856-881",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah Hj. Ratna Sari dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:08.856Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819483477-909",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah H. Budi Santoso dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:18:03.477Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819477965-780",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah nayya dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:17:57.965Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819470381-969",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah nayya dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:17:50.381Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819464355-43",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah yafiq dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:17:44.355Z",
+      "type": "mudhohi"
+    },
+    {
+      "id": "act-1779819456711-144",
+      "title": "Mudhohi Berhasil Dihapus",
+      "desc": "Kontrak qurban jemaah ridho dicabut / dihapus dari sistem.",
+      "timestamp": "2026-05-26T18:17:36.711Z",
+      "type": "mudhohi"
+    }
+  ]
+}

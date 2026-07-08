@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Qurban App",
+  "description": "Sistem manajemen qurban pintar modern untuk panitia Idul Adha di Indonesia.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
